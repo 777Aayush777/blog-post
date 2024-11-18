@@ -1,0 +1,169 @@
+.navbar {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1rem 1.5rem;
+  }
+  
+  .navbar-container {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    display: flex;
+    position: relative;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .logo-image {
+    height: 24px;
+    width: auto;
+  }
+  
+  .nav-content {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+  }
+  
+  .menu-items {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .menu-item {
+    position: relative;
+  }
+  
+  .menu-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.25rem;
+    font-size: 0.875rem;
+    color:#2e3749;
+    transition: color 0.2s;
+    padding: 10px;
+    padding-right: 25px;
+    padding-top: 0px;
+
+  }
+  
+  .menu-trigger:hover {
+    color: #1f2937;
+  }
+  
+  .chevron-icon {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.2s;
+  }
+  
+  .chevron-icon.rotate {
+    transform: rotate(180deg);
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 0.25rem;
+    width: 12rem;
+    background-color: white;
+    border-radius: 0.375rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    padding: 0.25rem 0;
+    z-index: 50;
+  }
+  
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    color: #4b5563;
+    transition: all 0.2s;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f9fafb;
+    color: #1f2937;
+  }
+  
+  .action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .sign-in-button {
+    font-size: 12px;
+    color: #4b5563;
+    transition: color 0.2s;
+    box-shadow: 0 2px 0 0 #0000000a, inset 0 0 0 2px #e5ecfb;
+    padding: 8px 12px;
+    line-height: 1.32;
+    border-radius: 6px;
+}
+  
+  .sign-in-button:hover {
+    color: #1f2937;
+  }
+  
+  .contact-button {
+    font-size: 12px;
+    background-color:#2e3749;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 0.375rem;
+    transition: background-color 0.2s;
+    box-shadow: 0 2px #0000000a;
+    line-height: 1.32;
+
+  }
+  
+  .contact-button:hover {
+    background-color: #1f2937;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .nav-content {
+      display: none;
+    }
+  }
+
+  button{
+    background-color: white;
+    border: none;
+  }
+
+  .menu-trigger::after{
+    content:'';
+    position: absolute;
+    z-index: 1;
+    width: 8px;
+    height: 8px;
+    border-right:3px solid grey;
+    border-bottom: 3px solid grey;
+    transform: rotate(45deg);
+    right: 0px;
+    top:5%
+  }
