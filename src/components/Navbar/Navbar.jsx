@@ -46,6 +46,7 @@ const Navbar = () => {
               </div>
             ))}
           </div>
+          </div>
 
           {/* Action Buttons */}
           <div className="action-buttons">
@@ -56,7 +57,6 @@ const Navbar = () => {
               Get in touch →
             </button>
           </div>
-        </div>
       </div>
     </nav>
   );
