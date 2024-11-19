@@ -1,0 +1,39 @@
+.toc-container {
+    position: sticky;
+    top: 80px; /* Adjust as per your header height */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 300px;
+  }
+  
+  .toc-container h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .toc-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .toc-container li {
+    margin-bottom: 10px;
+  }
+  
+  .toc-container a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .toc-container a.active {
+    font-weight: bold;
+    color: #0070f3; /* Highlight color */
+  }
+  
+  .toc-container a:hover {
+    color: #0070f3;
+  }
+  
