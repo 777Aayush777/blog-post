@@ -1,12 +1,4 @@
-.toc-container {
-    position: sticky;
-    top: 80px; /* Adjust as per your header height */
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    max-width: 300px;
-  }
+
   
   .toc-container h3 {
     margin-top: 0;

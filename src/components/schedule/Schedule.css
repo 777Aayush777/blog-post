@@ -1,0 +1,61 @@
+.section.footer-schedule-call-section {
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+
+.wide-container {
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wide-card.tiber-bg.footer-schedule-call-bg {
+    background-image: url(https://cdn.prod.website-files.com/626fcecbc824dd1c670451ba/62a99808ac96af4bde1ffeb8_schedule-call-section-illustration-new.svg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 51px;
+    padding-bottom: 51px;
+    padding-right: 600px;
+}
+
+.wide-card.tiber-bg {
+    background-color: #0b3948;
+    color: white;
+}
+
+.wide-card {
+    background-color: var(--white);
+    border-radius: 16px;
+    padding: 71px;
+}
+
+.button.with-left-icon {
+    align-items: center;
+    display: flex
+;
+}
+
+.button {
+    background-color: white;
+    color: #2e3749;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px 24px;
+    line-height: 1.32;
+    transition: background-color .2s;
+    max-width: 28%;
+}
+
+.btn-container {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    grid-auto-columns: 1fr;
+    margin-top: 40px;
+    display: block;
+}
